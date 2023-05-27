@@ -59,7 +59,7 @@ body {
 }
 
 .content-text {
-  padding: 14px 8px;
+  padding: 0 8px 16px 8px;
 }
 
 .content img {
@@ -72,7 +72,7 @@ body {
   display: flex;
   align-items: center;
   margin-top: 10px;
-  padding: 0 8px;
+  padding: 0 8px 10px 8px;
 }
 
 .action-icons {
@@ -97,12 +97,12 @@ body {
 }
 
 .section-2 {
-  padding: 10px;
+  padding: 18px 10px 10px 10px;
   background-color: #f5f5f5;
 }
 
-.section-2 a {
-  padding: 8px;
+.dropdown-comments {
+  padding: 0px 8px 0 8px;
   text-decoration: none;
   color: black;
 }
@@ -134,26 +134,48 @@ body {
   flex-direction: column;
 }
 
-
-
 .comment {
-    display: flex;
-    align-items: flex-start;
-  }
+  display: flex;
+  align-items: flex-start;
+}
 
-  .comment-textarea {
-    width: 695px;
-    height: 60px;
-    padding: 10px 0;
-    margin-top: 10px;
-  }
+.comment-textarea {
+  width: 695px;
+  height: 60px;
+  padding: 10px;
+  margin-top: 10px;
+}
 
-  .text-button {
-    background-color: #39A1D9;
-    color: white;
-    margin: 5px 0;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+.text-button {
+  background-color: #39a1d9;
+  color: white;
+  margin: 5px 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reply-section {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.a-reply {
+  text-decoration: none;
+  color: #39a1d9;
+  padding-right: 10px;
+}
+
+.fa-flag {
+  cursor: pointer;
+}
+
+.fa-heart {
+  cursor: pointer;
+}
+
+.fa-share-alt {
+  cursor: pointer;
+}
